@@ -5,7 +5,7 @@ const HEADER = () => {
     <header className="header">
       <div className="header__container">
         <h1 className="header__title">Hand made by oscar</h1>
-        <h3 className="header__title__sign">presents made with love</h3>
+        <h3 className="header__title__sign">Подарки сделаные с любовью</h3>
         <nav className="nav">
           <a className="nav__link" href="/Main">
             Главная
