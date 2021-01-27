@@ -10,17 +10,15 @@ const HEADER = () => {
           <a className="nav__link" href="/Main">
             Главная
           </a>
-          <a className="nav__link" href="/Contact">
-            Контакты
-          </a>
           <a className="nav__link" href="/Catalog">
             Каталог
           </a>
-          <a className="nav__link" href="">
-            photos
+          <a className="nav__link" href="/Contact">
+            Контакты
           </a>
-          <a className="nav__link" href="">
-            more
+
+          <a className="nav__link" href="/Info">
+            Ответы на вопросы
           </a>
         </nav>
       </div>

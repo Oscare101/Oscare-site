@@ -1,33 +1,45 @@
 import React from 'react'
-
+import img1 from './img/1.jpg'
+import img2 from './img/2.jpg'
+import img3 from './img/3.jpg'
+import img4 from './img/4.jpg'
+import img5 from './img/5.jpg'
+import img6 from './img/6.jpg'
+import img7 from './img/7.jpg'
+import img8 from './img/8.jpg'
 const Main = () => {
   return (
-    <div class="intro">
-      <div class="intro__container">
-        <div class="flex">
-          <div class="flex-left">
-            <p>You are in the online shop hand made by Oscar.</p>
-            <p>Gifts made with love</p>
+    <div className="intro">
+      <div className="intro__container">
+        <div className="flex">
+          <div className="flex-left">
+            <p>
+              Вы на сайте с альбомами и блокнотами сделаными вручную, Вы можете
+              заказать товар сделаный специально для Вас, либо купить из
+              сущечтвующих (все детали уточнять лично)
+            </p>
+            <p className="pale">Подарки сделанные с любовью ❤</p>
+            <p>Чтоб просмотреть все товары перейдите в каталог</p>
           </div>
-          <div class="flex-left flex flex--vertical">
-            <div class="photo-list">
-              <div class="photo-list-item">
-                <img src="../img/IMG_1191.JPG.jpg" alt="" />
+          <div className="flex">
+            <div className="photo-list">
+              <div className="photo-list-item-main">
+                <img src={img1} alt="" />
               </div>
-              <div class="photo-list-item">
-                <img src="./img/IMG_3194.JPG.jpg" alt="" />
+              <div className="photo-list-item-main">
+                <img src={img2} alt="" />
               </div>
-              <div class="photo-list-item">
-                <img src="/img/IMG_5110.JPG.jpg" alt="" />
+              <div className="photo-list-item-main">
+                <img src={img3} alt="" />
               </div>
-              <div class="photo-list-item">
-                <img src="img/IMG_3261.JPG.jpg" alt="" />
+              <div className="photo-list-item-main">
+                <img src={img4} alt="" />
               </div>
-              <div class="photo-list-item">
-                <img src="img/IMG_2909.JPG.jpg" alt="" />
+              <div className="photo-list-item-main">
+                <img src={img5} alt="" />
               </div>
-              <div class="photo-list-item">
-                <img src="img/IMG_3199.JPG.jpg" alt="" />
+              <div className="photo-list-item-main">
+                <img src={img6} alt="" />
               </div>
             </div>
           </div>
